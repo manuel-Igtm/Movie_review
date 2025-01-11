@@ -1,42 +1,13 @@
+# Movie Review API
 
+## Setup Instructions
 
-## Movie Review API
+### Prerequisites
+- Python 3.x
+- pip
+- Virtual Environment
 
-### Overview
-The **Movie Review API** is a Django-based project providing functionality to manage, search, filter, and interact with movie reviews. It includes authentication and allows users to create, update, and delete their reviews. The project also supports pagination, filtering, sorting, and searching to enhance the user experience.
-
-### Features
-- **CRUD Operations**: Users can create, read, update, and delete movie reviews.
-- **Authentication**: Protected endpoints to ensure secure access.
-- **Filtering**: Filter reviews by `movie_title` and `rating`.
-- **Searching**: Search reviews by `movie_title` and `review_content`.
-- **Sorting**: Sort reviews by `rating` or `created_at`.
-- **Pagination**: Paginated results with customizable page sizes.
-
-### Technology Stack
-- *Backend*: Django, Django REST Framework
-- *Database* : MYSQL
-- *Authentication* : Django's built-in user authentication
-- *Filtering*: Django Filter library
-
-### Endpoints
-| Endpoint               | HTTP Method | Description                           | Authentication |
-|------------------------|-------------|---------------------------------------|----------------|
-| `/reviews/`            | GET         | Get a list of all reviews             | Required       |
-| `/reviews/`            | POST        | Create a new review                   | Required       |
-| `/reviews/{id}/`       | GET         | Get a specific review                 | Required       |
-| `/reviews/{id}/`       | PUT         | Update a review                       | Required       |
-| `/reviews/{id}/`       | DELETE      | Delete a review                       | Required       |
-
-### How to Run the Project
-#### Prerequisites
-- Python (>= 3.8)
-- pip (Python package manager)
-- Git
-- Django and Django REST Framework
-- `django-filter` library
-
-#### Steps
+### Installation
 1. Clone the repository:
    ```bash
    git clone <repository_url>
